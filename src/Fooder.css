@@ -1,0 +1,139 @@
+.fooder-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6B3CC9;
+    width: 100%;
+    height: 324px;
+}
+
+.fooder-uppercontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5px;
+    gap: 300px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.fooder-uppercontent-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.fooder-uppercontent-2 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 150px;
+    align-items: flex-start;
+}
+
+.fooder-uppercontent-2-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.fooder-uppercontent-2-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.para {
+    width: 400px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.h2 {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.h3 {
+    color: #FFFFFF;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 0;
+}
+
+.h4 {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 0;
+}
+
+.fooder-downcontent {
+    width: 630px;
+    margin-top: 10px;
+}
+
+.fooder-downcontent-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 16px;
+    margin-top: -10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .fooder-container {
+        height: auto
+    }
+
+    .fooder-uppercontent {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .fooder-downcontent {
+        width: 480px;
+        margin-top: 20px;
+    }
+
+    .fooder-uppercontent-2 {
+        column-gap: 150px;
+    }
+
+}
+
+
+@media only screen and (max-width: 375px) {
+    
+    .fooder-container {
+        height: auto;
+        padding-left: 20px;
+    }
+
+    .fooder-uppercontent {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .fooder-downcontent {
+        width: 300px;
+    }
+
+    .fooder-uppercontent-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .para {
+        width: 300px;
+    }
+
+}
